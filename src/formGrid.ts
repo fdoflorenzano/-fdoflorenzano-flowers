@@ -56,7 +56,7 @@ export function formGrid({
     height * marginVertical + (availableHeight - gridHeight) / 2,
   ];
 
-  const sketchDimensions = [1, sketchRatio * minSpaceLeftRatio];
+  const sketchDimensions = [minSpaceLeftRatio, sketchRatio * minSpaceLeftRatio];
 
   const marginTransform = { transform: `translate(${offset[0]} ${offset[1]})` };
   const getGridPosition = (colI: number, rowI: number) => ({
