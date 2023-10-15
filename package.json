@@ -1,6 +1,6 @@
 {
   "name": "@fdoflorenzano/flowers",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Some util functions for axidraw prints",
   "keywords": [
     "axidraw",
@@ -43,15 +43,16 @@
   ],
   "scripts": {
     "build": "unbuild",
+    "changelog": "changeset version",
     "changeset": "changeset",
     "dev": "unbuild --stub",
     "lint": "eslint . --ext .ts",
+    "prepare": "simple-git-hooks",
     "prepublishOnly": "npm run build",
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
     "test": "vitest",
-    "typecheck": "tsc --noEmit",
-    "prepare": "simple-git-hooks"
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
