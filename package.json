@@ -43,13 +43,12 @@
   ],
   "scripts": {
     "build": "unbuild",
-    "changelog": "changeset version",
     "changeset": "changeset",
     "dev": "unbuild --stub",
     "lint": "eslint . --ext .ts",
     "prepare": "simple-git-hooks",
     "prepublishOnly": "npm run build",
-    "release": "bumpp && npm publish",
+    "release": "changeset version && npm publish",
     "start": "esno src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit"
@@ -59,7 +58,6 @@
     "@types/node": "^20.8.3",
     "@typescript-eslint/eslint-plugin": "^6.7.5",
     "@typescript-eslint/parser": "^6.7.5",
-    "bumpp": "^9.2.0",
     "eslint": "^8.51.0",
     "esno": "^0.17.0",
     "lint-staged": "^14.0.1",
