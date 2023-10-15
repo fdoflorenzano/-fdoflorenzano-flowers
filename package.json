@@ -9,7 +9,15 @@
     "mechanic",
     "design"
   ],
-  "author": "Fernando Florenzano",
+  "homepage": "https://github.com/fdoflorenzano/-fdoflorenzano-flowers",
+  "bugs": {
+    "url": "https://github.com/fdoflorenzano/-fdoflorenzano-flowers/issues"
+  },
+  "author": {
+    "name": "Fernando Florenzano",
+    "email": "f.florenzano94@gmail.com",
+    "url": "https://fdoflorenzano.cl/"
+  },
   "license": "ISC",
   "type": "module",
   "exports": {
