@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { formGrid } from "../src/formGrid";
+import { formGrid } from "../../src/grid/formGrid";
 
 describe("Should", () => {
   describe("sketchDimensions", () => {

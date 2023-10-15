@@ -1,2 +1,2 @@
-export { formGrid } from "./formGrid";
-export { getTwoDimensionalGrid } from "./getTwoDimensionalGrid";
+export { formGrid } from "./grid/formGrid";
+export { getTwoDimensionalGrid } from "./grid/getTwoDimensionalGrid";

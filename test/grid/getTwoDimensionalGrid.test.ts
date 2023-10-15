@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { getTwoDimensionalGrid } from "../src/getTwoDimensionalGrid";
+import { getTwoDimensionalGrid } from "../../src/grid/getTwoDimensionalGrid";
 
 describe("Should", () => {
   it("return empty array for 0x0 grid", () => {
